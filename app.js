@@ -6,6 +6,6 @@ const app = express()
 
 
 app.get("/",(req,res)=>{
-    res.send("<h1>server is working</h1>")
+    res.send("<h1>Server is working</h1>")
 })
 module.exports =app
